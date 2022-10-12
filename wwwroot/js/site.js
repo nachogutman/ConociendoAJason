@@ -10,7 +10,7 @@ function cargarDatos(){
     $("#cargar").hide();
     $.getJSON( "/Restos.json", function( data ) {
         $.each( data, function( key, val ) {
-            $("#contenido").html($("#contenido").html() + "<tr> <th> " + val.id + "</th> <td>" +  val.nombre + "</td> <td> " + val.añoApertura + "</td> <td>" + val.ubicacion[0].latitud + "," + val.ubicacion[0].longitud + "</td> <td>" + val.dueños + "</td> <td>" + val.logo + "</td> <td>" + val.menuPrincipal[0].primerPlato+ "</td> <td>" + val.menuPrincipal[0].platoPrincipal + "</td> <td>" + val.menuPrincipal[0].postre + "</td> <td> <button onclick=cargarReseña(" + (val.id - 1) + ")> Ver Reseñas </button> </td> </tr>");
+            $("#contenido").html($("#contenido").html() + "<tr> <th> " + val.id + "</th> <td>" +  val.nombre + "</td> <td> " + val.añoApertura + "</td> <td>" + val.ubicacion[0].latitud + "," + val.ubicacion[0].longitud + "</td> <td>" + val.dueños + "</td> <td> <img src=/sources/" + val.logo + " style='max-width: 80px'></td> <td>" + val.menuPrincipal[0].primerPlato+ "</td> <td>" + val.menuPrincipal[0].platoPrincipal + "</td> <td>" + val.menuPrincipal[0].postre + "</td> <td> <button onclick=cargarReseña(" + (val.id - 1) + ")> Ver Reseñas </button> </td> </tr>");
             item.push(val);
         });
     });
