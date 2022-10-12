@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "nombre": "Matitiau",
+        "añoApertura": 1917,
+        "ubicacion": [
+            {
+                "latitud": -34.618066,
+                "longitud": -58.476090
+            }
+        ],
+        "dueños": "Mati y Croqueta",
+        "logo": "matitiau.jpg",
+        "menuPrincipal": [ {"primerPlato": "focaccia", "platoPrincipal": "agnolotti de jyq", "postre": "serenito con bolitas de chocolate" }],
+        "reseña": [ 
+            {
+                "usuario": "pepi123", 
+                "valoracion": 4.2, 
+                "descripcion": "top el serenito", 
+                "cantLikes": 912
+            },
+            {
+                "usuario": "fod45", 
+                "valoracion": 5, 
+                "descripcion": "la focaccia impecable", 
+                "cantLikes": 420
+            },
+            {
+                "usuario": "sanchi", 
+                "valoracion": 2.3, 
+                "descripcion": "flojearon de jamon, focaccia medio fria y el serenito lo prefiero con rocklets", 
+                "cantLikes": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Krustacio Kascarudo",
+        "añoApertura": 1999,
+        "ubicacion":  [
+            {
+                "latitud": -34.722344,
+                "longitud": -58.277288
+            }
+        ],
+        "dueños": "Don Cangrejo",
+        "logo": "KK.jpg",
+        "menuPrincipal": [ {"primerPlato": "Papas Fritas", "platoPrincipal": "Cangreburguers", "postre": "Heladito de maquina" }],
+        "reseña": [ 
+            {
+                "usuario": "Planton", 
+                "valoracion": 0.1, 
+                "descripcion": "Denme la reseta KKKK", 
+                "cantLikes": 365432234
+            },
+            {
+                "usuario": "Sirenita", 
+                "valoracion": 5, 
+                "descripcion": "Una delicia", 
+                "cantLikes": 230
+            },
+            {
+                "usuario": "Marcelo Daniel Gallardo", 
+                "valoracion": 2, 
+                "descripcion": "Habia un pedazo de esponja en mi hamburguesa", 
+                "cantLikes": 9122018
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Il Nonno Pibe",
+        "añoApertura": 1810,
+        "ubicacion": [
+            {
+                "latitud": -34.611519,
+                "longitud": -58.431593
+            }
+        ],
+        "dueños": "Alicia y Su hijo el pela",
+        "logo": "nono.jpg",
+        "menuPrincipal": [ {"primerPlato": "empanadas de morron y calabrese", "platoPrincipal": "pizza salchipapa", "postre": "pastafrola casera" }],
+        "reseña": [ 
+            {
+                "usuario": "nano", 
+                "valoracion": 4, 
+                "descripcion": "muy pesado, me explota la billetera", 
+                "cantLikes": 2
+            },
+            {
+                "usuario": "lipo", 
+                "valoracion": 1, 
+                "descripcion": "las servilletas son un carton, me rompen la nariz", 
+                "cantLikes": 0
+            },
+            {
+                "usuario": "polo", 
+                "valoracion": 5, 
+                "descripcion": "exquisitas las abichuelas", 
+                "cantLikes": 999
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Kosher River",
+        "añoApertura": 2014,
+        "ubicacion": [
+            {
+                "latitud": -34.545456,
+                "longitud": -58.449775
+            }
+        ],
+        "dueños": "Graciela Alfano",
+        "logo": "RIve.jpeg",
+        "menuPrincipal": [ {"primerPlato": "Barra de pan", "platoPrincipal": "Bondiola envuelta en panceta freida con toppings de Jamon", "postre": "3 MiniOreos per capita" }],
+        "reseña": [ 
+            {
+                "usuario": "Javier Pinola", 
+                "valoracion": 3.8, 
+                "descripcion": "Estaba duro el pan", 
+                "cantLikes": 0
+            },
+            {
+                "usuario": "Juan Roman Riquelme", 
+                "valoracion": 2, 
+                "descripcion": "Me dieron 2 oreos y una no tenia crema", 
+                "cantLikes": 23423
+            },
+            {
+                "usuario": "El Tanque Silva", 
+                "valoracion": 1.3, 
+                "descripcion": "En vez de bondiola me dieron un chinchulin gigante", 
+                "cantLikes": 2
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "La abuela masa",
+        "añoApertura": 3,
+        "ubicacion":[
+        {
+            "latitud": -34.609615,
+            "longitud": -58.430779
+        }
+        ],
+        "dueños": "Abu y flia",
+        "logo": "abuAmasa.jpg",
+        "menuPrincipal": [ {"primerPlato": "Pan con manteca", "platoPrincipal": "gnocchis con atun y sal", "postre": "vasito de coca (free)" }],
+        "reseña": [ 
+            {
+                "usuario": "leybu", 
+                "valoracion": 5, 
+                "descripcion": "regalan coca, es hermoso", 
+                "cantLikes": 20
+            },
+            {
+                "usuario": "forni", 
+                "valoracion": 1.3, 
+                "descripcion": "la manteca estaba vencida, el pan muy crocante pero firmes los ñoquis", 
+                "cantLikes": 1
+            },
+            {
+                "usuario": "tiago", 
+                "valoracion": 4.9, 
+                "descripcion": "hermoso el ambiente", 
+                "cantLikes": 0
+            }
+        ]
+    }
+]

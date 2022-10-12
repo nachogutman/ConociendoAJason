@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4" id="title">Restaurantes</h1>
+    <button id="cargar" onclick=cargarDatos()> Cargar Datos </button>
+    <div>
+        <table class="table tableDatos">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Año Apertura</th>
+                    <th scope="col">Ubicacion</th>
+                    <th scope="col">Dueños</th>
+                    <th scope="col">Logo</th>
+                    <th scope="col">Primer Plato</th>
+                    <th scope="col">Plato Principal</th>
+                    <th scope="col">Postre</th>
+                    <th scope="col">Reseña</th>
+                </tr>
+            </thead>
+            <tbody id="contenido">
+            </tbody>
+        </table>
+        <table class="table tableReseñas">
+            <thead>
+                <tr>
+                    <th scope="col">Usuario</th>
+                    <th scope="col">Valoracion</th>
+                    <th scope="col">Descripcion</th>
+                    <th scope="col">Cantidad de Likes</th>
+                </tr>
+            </thead>
+            <tbody id="contenidoR">
+            </tbody>
+        </table>
+    </div>
+</div>
