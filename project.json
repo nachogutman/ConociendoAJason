@@ -91,7 +91,12 @@
             "id": 4,
             "nombre": "Kosher River",
             "añoApertura": "2014",
-            "ubicacion": "-34.545456, -58.449775",
+            "ubicacion": [
+                {
+                    "latitud":-34.545456,
+                    "longitud":-58.449775
+                }
+            ],
             "dueños": "Graciela Alfano",
             "logo": "RIve.jpeg",
             "menuPrincipal": [ {"primerPlato": "Barra de pan", "platoPrincipal": "Bondiola envuelta en panceta freida con toppings de Jamon", "postre": "3 MiniOreos per capita" }],
@@ -120,7 +125,12 @@
             "id": 5,
             "nombre": "La abuela masa",
             "añoApertura": "3",
-            "ubicacion": "-34.609615, -58.430779",
+            "ubicacion":[
+            {
+                "latitud": -34.609615,
+                "longitud": -58.430779
+            }
+            ],
             "dueños": "Abu y flia",
             "logo": "abuAmasa.jpg",
             "menuPrincipal": [ {"primerPlato": "Pan con manteca", "platoPrincipal": "gnocchis con atun y sal", "postre": "vasito de coca (free)" }],
