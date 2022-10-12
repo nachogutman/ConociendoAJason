@@ -30,6 +30,35 @@
             ]
         },
         {
+            "id": 2,
+            "nombre": "Krustacio Kascarudo",
+            "añoApertura": "1999",
+            "ubicacion": "-34.722344, -58.277288",
+            "dueños": "Don Cangrejo",
+            "logo": "KK.jpg",
+            "menuPrincipal": [ {"primerPlato": "Papas Fritas", "platoPrincipal": "Cangreburguers", "postre": "Heladito de maquina" }],
+            "reseña": [ 
+                {
+                    "usuario": "Planton", 
+                    "valoracion": "0.1", 
+                    "descripcion": "Denme la reseta KKKK", 
+                    "cantLikes": "365.432.234"
+                },
+                {
+                    "usuario": "Sirenita", 
+                    "valoracion": "5", 
+                    "descripcion": "Una delicia", 
+                    "cantLikes": "230"
+                },
+                {
+                    "usuario": "Marcelo Daniel Gallardo", 
+                    "valoracion": "2", 
+                    "descripcion": "Habia un pedazo de esponja en mi hamburguesa", 
+                    "cantLikes": "9.122.018"
+                }
+            ]
+        },
+        {
             "id": 3,
             "nombre": "Il Nonno Pibe",
             "añoApertura": "1810",
@@ -55,6 +84,35 @@
                     "valoracion": "5", 
                     "descripcion": "exquisitas las abichuelas", 
                     "cantLikes": "999"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Kosher River",
+            "añoApertura": "2014",
+            "ubicacion": "-34.545456, -58.449775",
+            "dueños": "Graciela Alfano",
+            "logo": "RIve.jpeg",
+            "menuPrincipal": [ {"primerPlato": "Barra de pan", "platoPrincipal": "Bondiola envuelta en panceta freida con toppings de Jamon", "postre": "3 MiniOreos per capita" }],
+            "reseña": [ 
+                {
+                    "usuario": "Javier Pinola", 
+                    "valoracion": "3.8", 
+                    "descripcion": "Estaba duro el pan", 
+                    "cantLikes": "0"
+                },
+                {
+                    "usuario": "Juan Roman Riquelme", 
+                    "valoracion": "2", 
+                    "descripcion": "Me dieron 2 oreos y una no tenia crema", 
+                    "cantLikes": "234.234.912"
+                },
+                {
+                    "usuario": "El Tanque Silva", 
+                    "valoracion": "1.3", 
+                    "descripcion": "En vez de bondiola me dieron un chinchulin gigante", 
+                    "cantLikes": "2"
                 }
             ]
         },
