@@ -1,0 +1,33 @@
+{
+    "restaurantes": [
+        {
+            "id": 1,
+            "nombre": "Matitiau",
+            "añoApertura": "1917",
+            "ubicacion": "-34.618066, -58.476090",
+            "dueños": "Mati y Croqueta",
+            "logo": "matitiau.jpg",
+            "menuPrincipal": [ {"primerPlato": "focaccia", "platoPrincipal": "agnolotti de jyq", "postre": "serenito con bolitas de chocolate" }],
+            "reseña": [ 
+                {
+                    "usuario": "pepi123", 
+                    "valoracion": "4.2", 
+                    "descripcion": "top el serenito", 
+                    "cantLikes": "912"
+                },
+                {
+                    "usuario": "fod45", 
+                    "valoracion": "5", 
+                    "descripcion": "la focaccia impecable", 
+                    "cantLikes": "420"
+                },
+                {
+                    "usuario": "sanchi", 
+                    "valoracion": "2.3", 
+                    "descripcion": "flojearon de jamon, focaccia medio fria y el serenito lo prefiero con rocklets", 
+                    "cantLikes": "1"
+                }
+            ]
+        }
+    ]
+}
