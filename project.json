@@ -4,7 +4,12 @@
             "id": 1,
             "nombre": "Matitiau",
             "añoApertura": "1917",
-            "ubicacion": "-34.618066, -58.476090",
+            "ubicacion": [
+                {
+                    "latitud": -34.618066,
+                    "longitud": -58.476090
+                }
+            ],
             "dueños": "Mati y Croqueta",
             "logo": "matitiau.jpg",
             "menuPrincipal": [ {"primerPlato": "focaccia", "platoPrincipal": "agnolotti de jyq", "postre": "serenito con bolitas de chocolate" }],
@@ -33,7 +38,12 @@
             "id": 2,
             "nombre": "Krustacio Kascarudo",
             "añoApertura": "1999",
-            "ubicacion": "-34.722344, -58.277288",
+            "ubicacion":  [
+                {
+                    "latitud": -34.722344,
+                    "longitud": -58.277288
+                }
+            ],
             "dueños": "Don Cangrejo",
             "logo": "KK.jpg",
             "menuPrincipal": [ {"primerPlato": "Papas Fritas", "platoPrincipal": "Cangreburguers", "postre": "Heladito de maquina" }],
@@ -62,7 +72,12 @@
             "id": 3,
             "nombre": "Il Nonno Pibe",
             "añoApertura": "1810",
-            "ubicacion": "-34.611519, -58.431593",
+            "ubicacion": [
+                {
+                    "latitud": -34.611519,
+                    "longitud": -58.431593
+                }
+            ],
             "dueños": "Alicia y Su hijo el pela",
             "logo": "nono.jpg",
             "menuPrincipal": [ {"primerPlato": "empanadas de morron y calabrese", "platoPrincipal": "pizza salchipapa", "postre": "pastafrola casera" }],
